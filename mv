@@ -1,0 +1,6 @@
+Command: mv 
+
+The 'mv' command allows you to move files or directories from one location to another.
+eg. mv ~/command-line ~/Projects/command-line
+It can also be used to rename files.
+eg. mv hello.txt goodbye.txt
