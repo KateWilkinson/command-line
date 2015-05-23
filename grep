@@ -1,0 +1,9 @@
+The grep command can be used to search text or search a specified file for lines that contain a specified letter, word etc.
+Grep then displays the matching lines. 
+eg. grep "A" ~/sometext.txt
+would search the file 'sometext.txt' for lines containing a capital 'A'
+
+Grep can also be used in conjunction with pipes in order to search directories 
+eg. ls | grep ^T
+would list the contents of the current directory and pass the output to grep.
+Grep would then search that list for lines beginning with a capital T and return those in the shell.
